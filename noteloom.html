@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoteLoom — AI Notetaker — Prasidh Shetty</title>
+  <meta name="description" content="Case study: NoteLoom — an AI-supported study platform that raised SUS from 78.5 to 97.5 across three rounds of testing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+  <script>if(localStorage.getItem("theme")==="light")document.documentElement.setAttribute("data-theme","light")</script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">PRASIDH<span>.</span></a>
+      <nav class="nav-links">
+        <a href="work.html">Work</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="Prasidh-Shetty-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a href="https://github.com/prasidhshetty783-prog" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/prasidh-shetty-b4a69518b/" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme"></button>
+      </nav>
+      <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="cs-hero">
+    <div class="container">
+      <p class="eyebrow reveal">Case Study — Masters Project</p>
+      <h1 class="reveal d1">NoteLoom — <span class="italic">AI</span> Notetaker</h1>
+      <p class="lede reveal d2">An AI-supported study platform designed to help college students manage cognitive overload caused by fragmented study tools and fast-paced lectures. Over 10 weeks, my team and I researched, designed, and tested a solution that centralizes note-taking, summarization, and active recall — improving the SUS score from 78.5 to 97.5 across three rounds of iterative testing.</p>
+
+      <div class="cs-cover reveal d2">
+        <img src="https://framerusercontent.com/images/7xmcBBQALfX38yEYyZZWSvCUUig.png?scale-down-to=2048" alt="NoteLoom overview" />
+      </div>
+
+      <dl class="cs-meta reveal">
+        <div><dt>Role</dt><dd>UX Researcher & Designer</dd></div>
+        <div><dt>Industry</dt><dd>Education</dd></div>
+        <div><dt>Team Size</dt><dd>6 Members</dd></div>
+        <div><dt>Timeline</dt><dd>Oct — Dec 2025</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="cs-section">
+    <div class="container">
+      <p class="cs-label reveal"><span class="n">01</span> Problem Statement</p>
+      <h2 class="reveal">A chaotic ecosystem of notes, slides & AI tools</h2>
+      <p class="body reveal d1">College students today navigate a chaotic ecosystem of handwritten notes, PDF slides, and various AI tools. This fragmentation leads to high cognitive load and reduced learning efficiency.</p>
+
+      <div class="pillar-grid reveal d1">
+        <div class="pillar">
+          <span class="pn">i.</span>
+          <h4>Tool Overload</h4>
+          <p>Students juggle screenshots, slides, and separate AI tools (like ChatGPT), leading to scattered information.</p>
+        </div>
+        <div class="pillar">
+          <span class="pn">ii.</span>
+          <h4>Organization Debt</h4>
+          <p>Students lose significant time manually reorganizing material before they can even begin studying.</p>
+        </div>
+        <div class="pillar">
+          <span class="pn">iii.</span>
+          <h4>Speed vs. Structure</h4>
+          <p>During fast-paced lectures, capturing words is prioritized over understanding — often resulting in messy, unusable notes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section">
+    <div class="container">
+      <p class="cs-label reveal"><span class="n">02</span> UX Road Map</p>
+      <h2 class="reveal">A three-phase user-centered design process</h2>
+      <p class="body reveal d1">The roadmap was divided into a three-phase User-Centered Design (UCD) process — Empathize (Aug–Sep), Ideate (Oct–Nov), and Prototyping & Testing (Nov–Dec).</p>
+
+      <div class="cs-gallery three reveal">
+        <figure>
+          <img src="https://framerusercontent.com/images/iTnNnNA3XIjTZNsZy9LrzJUt9Y8.png?scale-down-to=1024" alt="Empathize phase" loading="lazy" />
+          <figcaption>Empathize · Aug–Sep</figcaption>
+        </figure>
+        <figure>
+          <img src="https://framerusercontent.com/images/CzmpMcmOpE2z4h6aRHeBJQXHe5M.png?scale-down-to=1024" alt="Ideate phase" loading="lazy" />
+          <figcaption>Ideate · Oct–Nov</figcaption>
+        </figure>
+        <figure>
+          <img src="https://framerusercontent.com/images/yD4WFqmb2h7ar5bYVXXkAT2s.png?scale-down-to=1024" alt="Prototype & test phase" loading="lazy" />
+          <figcaption>Prototype & Test · Nov–Dec</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section">
+    <div class="container">
+      <p class="cs-label reveal"><span class="n">03</span> Empathize Phase</p>
+      <h2 class="reveal">Interviews, observation & 18 research articles</h2>
+      <p class="body reveal d1">Insights were gathered through 1-on-1 user interviews, by observing students' note-taking behavior, and by reviewing research articles focused on AI trust, cognitive load, and multimodal learning.</p>
+
+      <figure class="cs-figure contain reveal">
+        <img src="https://framerusercontent.com/images/xFfhtlPS7VNwB4ECiGRiKPA5Ln4.png?scale-down-to=1024" alt="Empathize phase research" loading="lazy" />
+        <figcaption>Empathize phase — synthesizing behaviour, interviews & literature</figcaption>
+      </figure>
+
+      <div class="quote-block reveal">
+        <blockquote>How can an AI-supported study platform reduce cognitive load for college students while maintaining transparency and user control?</blockquote>
+        <cite>Primary Research Question</cite>
+      </div>
+
+      <figure class="cs-figure contain reveal">
+        <img src="https://framerusercontent.com/images/cviM2gyWhm8pbTvcwB3f2z6ABKY.png?scale-down-to=1024" alt="Research framing" loading="lazy" />
+        <figcaption>Framing the research questions around cognitive load, trust & control</figcaption>
+      </figure>
+
+      <h2 class="reveal" style="margin-top:90px; font-size:clamp(24px,3vw,34px)">Secondary research — 18 articles, 4 key insights</h2>
+      <div class="insight-list reveal d1">
+        <div class="insight">
+          <span class="no">01</span>
+          <h4>Multimodal Learning Accelerates Retention</h4>
+          <p>Relying purely on massive blocks of text is inefficient. The design needed to bridge text and visual representations.</p>
+        </div>
+        <div class="insight">
+          <span class="no">02</span>
+          <h4>"Explainable" and Controllable AI</h4>
+          <p>Students are skeptical of "black-box" AI tools. To build trust, NoteLoom had to be a transparent partner — not a Magic 8-Ball.</p>
+        </div>
+        <div class="insight">
+          <span class="no">03</span>
+          <h4>Active Engagement vs. Digital Distraction</h4>
+          <p>Digital tools often become a source of distraction. We needed an environment that kept students actively engaged.</p>
+        </div>
+        <div class="insight">
+          <span class="no">04</span>
+          <h4>Cognitive Load Optimization</h4>
+          <p>Cognitive overload and disorganized study habits directly contribute to burnout. NoteLoom needed to act as an organizational anchor.</p>
+        </div>
+      </div>
+
+      <figure class="cs-figure reveal">
+        <img src="https://framerusercontent.com/images/FUnUBNB5IZCrX94kUJVjngs3mE.png?scale-down-to=2048" alt="Secondary research synthesis" loading="lazy" />
+        <figcaption>Secondary research — mapping cognitive load, multimodal learning & AI trust</figcaption>
+      </figure>
+
+      <h2 class="reveal" style="margin-top:90px; font-size:clamp(24px,3vw,34px)">1-on-1 interviews — 7 students, aged 18–35</h2>
+      <div class="insight-list reveal d1">
+        <div class="insight">
+          <span class="no">01</span>
+          <h4>Efficiency & Overload</h4>
+          <p>The cognitive cost of reorganizing notes across multiple apps frequently exceeds the perceived learning benefit.</p>
+        </div>
+        <div class="insight">
+          <span class="no">02</span>
+          <h4>The Speed vs. Comprehension Deficit</h4>
+          <p>During fast lectures, students abandon structured note-taking just to keep up — capturing fragmented text that lacks context later.</p>
+        </div>
+        <div class="insight">
+          <span class="no">03</span>
+          <h4>Trust & Transparency</h4>
+          <p>Students want AI to save time, but are highly skeptical of automated academic assistance that doesn't show its work.</p>
+        </div>
+        <div class="insight">
+          <span class="no">04</span>
+          <h4>Stress Levels</h4>
+          <p>Messy, unstructured materials scattered across PDFs, screenshots, and documents directly trigger anxiety.</p>
+        </div>
+      </div>
+
+      <figure class="cs-figure reveal">
+        <img src="https://framerusercontent.com/images/NLPMmfjFMpdNCEQQ0EXoUiGY0QY.png?scale-down-to=2048" alt="Interview synthesis" loading="lazy" />
+        <figcaption>Synthesizing the seven 1-on-1 interviews into behavioural themes</figcaption>
+      </figure>
+
+      <figure class="cs-figure wide reveal">
+        <img src="https://framerusercontent.com/images/lhzJdFkdxnflyFnBM9vsxjJU.png?scale-down-to=1600" alt="Affinity diagram" loading="lazy" />
+        <figcaption>Affinity diagram — goals, motivations, needs & pain points</figcaption>
+      </figure>
+
+      <h2 class="reveal" style="margin-top:90px; font-size:clamp(24px,3vw,34px)">User personas</h2>
+      <p class="body reveal d1">Three personas guided the core feature pillars — Automation, Organization & Transparency.</p>
+      <div class="persona-imgs reveal d1">
+        <img src="https://framerusercontent.com/images/TZDdg1veCmJZijl0nN6K5CKJww.png?scale-down-to=1600" alt="Persona overview" loading="lazy" />
+        <img src="https://framerusercontent.com/images/lYHn2gHGPDa6IMCHGx0AOQjgWwc.png?scale-down-to=1600" alt="Persona — The Reflective Learner" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section">
+    <div class="container">
+      <p class="cs-label reveal"><span class="n">04</span> Ideation Phase</p>
+      <h2 class="reveal">Crazy 8s — 48 concepts in eight minutes</h2>
+      <p class="body reveal d1">The Crazy 8s method was used to generate low-fidelity concepts addressing the "How Might We" statements. "AI sketching" was also tried to expand divergent thinking — though human refinement was necessary to add empathy.</p>
+
+      <div class="pillar-grid reveal d1">
+        <div class="pillar">
+          <span class="pn">hmw i.</span>
+          <h4>Stay Visually Organized</h4>
+          <p>How might we help students stay visually organized across study material?</p>
+        </div>
+        <div class="pillar">
+          <span class="pn">hmw ii.</span>
+          <h4>Adaptive Learning</h4>
+          <p>How might we create adaptive learning experiences that suit multiple learning styles?</p>
+        </div>
+        <div class="pillar">
+          <span class="pn">hmw iii.</span>
+          <h4>Transparent AI</h4>
+          <p>How might we design AI tools that explain reasoning transparently?</p>
+        </div>
+        <div class="pillar">
+          <span class="pn">hmw iv.</span>
+          <h4>Reduce Overload</h4>
+          <p>How might we reduce overload without diminishing comprehension?</p>
+        </div>
+      </div>
+
+      <figure class="cs-figure reveal">
+        <img src="https://framerusercontent.com/images/XM0WsvQd6NdNsO3s8SvZJZIHM7E.png?scale-down-to=2048" alt="Crazy 8s sketches and low-fidelity wireframes" loading="lazy" />
+        <figcaption>Crazy 8s sketches translated into low-fidelity wireframes</figcaption>
+      </figure>
+
+      <p class="body reveal" style="margin-top:56px">The rapid sketches were translated into low-fidelity wireframes defining the core architecture for note creation, AI-driven summaries, and flashcard generation. By prioritizing layout and logic over aesthetics, the AI integration remained discoverable and user flows stayed centralized and efficient.</p>
+    </div>
+  </section>
+
+  <section class="cs-section">
+    <div class="container">
+      <p class="cs-label reveal"><span class="n">05</span> Prototype & Testing</p>
+      <h2 class="reveal">Three rounds. SUS from 78.5 to 97.5.</h2>
+      <p class="body reveal d1">Mid-fidelity prototypes established a functional skeleton for the first round of usability testing using a within-subject design. Building on those insights, high-fidelity iterations refined the visual hierarchy and human-AI collaboration until the interface was both intuitive and trustworthy.</p>
+
+      <h2 class="reveal" style="margin-top:70px; font-size:clamp(24px,3vw,34px)">Round 1 — Mid-fidelity prototype</h2>
+      <p class="body reveal d1">Validated the structural logic of the dashboard and core note-taking flow. Two critical friction points emerged: input fields lacked visual boundaries and mimicked static text, and high-value AI tools like auto-summaries and flashcards were buried in nested menus.</p>
+      <div class="stat-row reveal d1">
+        <div class="stat"><div class="num">78.5</div><div class="lbl">SUS Score</div></div>
+        <div class="stat"><div class="num">5</div><div class="lbl">Participants</div></div>
+        <div class="stat"><div class="num">95%</div><div class="lbl">Task Completion</div></div>
+      </div>
+
+      <h2 class="reveal" style="margin-top:80px; font-size:clamp(24px,3vw,34px)">Round 2 — High-fidelity v1</h2>
+      <p class="body reveal d1">Color improved visual appeal and the streamlined note-creation flow succeeded — but three friction points emerged: weak affordances around flashcards and AI summaries, a title section lacking visual hierarchy, and users wanting more control over AI-generated content.</p>
+      <div class="stat-row reveal d1">
+        <div class="stat"><div class="num">85.5</div><div class="lbl">SUS Score</div></div>
+        <div class="stat"><div class="num">5</div><div class="lbl">Participants</div></div>
+        <div class="stat"><div class="num">100%</div><div class="lbl">Task Completion</div></div>
+      </div>
+
+      <h2 class="reveal" style="margin-top:80px; font-size:clamp(24px,3vw,34px)">Round 3 — High-fidelity v2</h2>
+      <p class="body reveal d1">The final round validated the refined interaction models: explicit hint text completely resolved confusion around the note title field, and surfaced summaries and flashcards resulted in effortless discoverability.</p>
+      <div class="stat-row reveal d1">
+        <div class="stat"><div class="num">97.5</div><div class="lbl">SUS Score</div></div>
+        <div class="stat"><div class="num">5</div><div class="lbl">Participants</div></div>
+        <div class="stat"><div class="num">100%</div><div class="lbl">Task Completion</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section">
+    <div class="container">
+      <p class="cs-label reveal"><span class="n">06</span> Key Findings</p>
+      <h2 class="reveal">What three rounds of testing taught us</h2>
+
+      <div class="insight-list reveal d1">
+        <div class="insight">
+          <span class="no">01</span>
+          <h4>Explicit Affordances are Non-Negotiable</h4>
+          <p>Subtle design cues completely failed with our fast-paced user group. Clear, visible boundaries and explicit text nudges are required to drive engagement and prevent task abandonment.</p>
+        </div>
+        <div class="insight">
+          <span class="no">02</span>
+          <h4>Visibility Drives Adoption</h4>
+          <p>Users overwhelmingly relied on top-level features and avoided nested menus. Surfacing high-value AI actions directly next to the editor instantly removed friction.</p>
+        </div>
+        <div class="insight">
+          <span class="no">03</span>
+          <h4>The Automation vs. Control Tension</h4>
+          <p>AI accelerates the busywork — but students need to remain the decision-makers to stay actively engaged with their learning.</p>
+        </div>
+      </div>
+
+      <div class="quote-block reveal">
+        <blockquote>"AI sped up layout ideas… but lacked empathy. It sparked ideas, not decisions."</blockquote>
+        <cite>AI-Teaming takeaway — AI for divergence, humans for convergence</cite>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section">
+    <div class="container">
+      <p class="cs-label reveal"><span class="n">07</span> Conclusion</p>
+      <h2 class="reveal">Balance between automation and agency</h2>
+      <p class="body reveal d1">Through three rounds of iterative, human-centered design, NoteLoom evolved from a concept into an intuitive, cognitively supportive study platform. By actively listening to user friction and responding with explicit interaction cues and surfaced navigation, NoteLoom transforms a highly fragmented study process into a centralized, efficient workflow.</p>
+      <p class="body reveal d1">Ultimately, NoteLoom succeeds because it strikes a delicate balance — utilizing AI to reduce busywork while preserving the transparency and user agency required for true academic comprehension. The success is reflected in the metrics: a jump from a baseline SUS of 78.5 to a final score of 97.5. NoteLoom demonstrates the immense potential of AI-supported tools when they are strictly anchored to diverse human learning styles.</p>
+    </div>
+  </section>
+
+  <section class="cs-next">
+    <div class="container reveal">
+      <p class="lbl">Next Case Study</p>
+      <a class="title" href="nova-ai.html">Nova AI — In-Car <span class="italic">Co-Pilot</span> →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-cta reveal">
+        <p class="eyebrow">Available for opportunities</p>
+        <h2>Let's create something<br /><span class="italic">extraordinary</span> together.</h2>
+        <a class="email" href="mailto:prasidhshetty783@gmail.com">prasidhshetty783@gmail.com</a>
+      </div>
+      <div class="footer-bottom">
+        <p class="copy">© <span data-year></span> Prasidh Shetty — Crafted with intent.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/prasidh-shetty-b4a69518b/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/prasidhshetty783-prog" target="_blank" rel="noopener">GitHub</a>
+          <a href="Prasidh-Shetty-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <a href="https://www.instagram.com/shots_by_spicy/" target="_blank" rel="noopener">Photography</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
